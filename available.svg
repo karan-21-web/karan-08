@@ -1,0 +1,13 @@
+<svg width="230" height="36" viewBox="0 0 230 36" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="228" height="34" rx="17" fill="#0F0817" stroke="#22C55E" stroke-opacity="0.5"/>
+
+  <circle cx="24" cy="18" r="6" fill="#22C55E" fill-opacity="0.25">
+    <animate attributeName="r" values="6;11;6" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" values="0.25;0;0.25" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="24" cy="18" r="5" fill="#22C55E">
+    <animate attributeName="opacity" values="1;0.6;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="42" y="23" font-family="JetBrains Mono, Consolas, monospace" font-size="13" font-weight="600" fill="#E9D5FF">Available for Hire</text>
+</svg>

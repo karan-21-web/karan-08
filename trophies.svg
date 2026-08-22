@@ -1,0 +1,67 @@
+<svg width="1000" height="150" viewBox="0 0 1000 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A0B2E"/>
+      <stop offset="100%" stop-color="#0F0817"/>
+    </linearGradient>
+  </defs>
+
+  <g font-family="JetBrains Mono, Consolas, monospace">
+
+    <g>
+      <rect x="10" y="10" width="180" height="130" rx="14" fill="url(#cardBg)" stroke="#7C3AED" stroke-opacity="0.5"/>
+      <rect x="10" y="10" width="180" height="130" rx="14" fill="none" stroke="#7C3AED" stroke-width="3" opacity="0.25">
+        <animate attributeName="opacity" values="0.25;0;0.25" dur="2.4s" repeatCount="indefinite"/>
+      </rect>
+      <text x="100" y="48" text-anchor="middle" font-size="30">🏆</text>
+      <text x="100" y="78" text-anchor="middle" font-size="20" font-weight="700" fill="#E9D5FF">8.23</text>
+      <text x="100" y="98" text-anchor="middle" font-size="10" fill="#C4B5FD">CGPA</text>
+      <text x="100" y="116" text-anchor="middle" font-size="9" fill="#A855F7">B.Tech IT</text>
+    </g>
+
+    <g>
+      <rect x="210" y="10" width="180" height="130" rx="14" fill="url(#cardBg)" stroke="#8B5CF6" stroke-opacity="0.5"/>
+      <rect x="210" y="10" width="180" height="130" rx="14" fill="none" stroke="#8B5CF6" stroke-width="3" opacity="0.25">
+        <animate attributeName="opacity" values="0.25;0;0.25" dur="2.4s" begin="0.3s" repeatCount="indefinite"/>
+      </rect>
+      <text x="300" y="48" text-anchor="middle" font-size="30">⚙️</text>
+      <text x="300" y="78" text-anchor="middle" font-size="16" font-weight="700" fill="#E9D5FF">Event Coord.</text>
+      <text x="300" y="98" text-anchor="middle" font-size="10" fill="#C4B5FD">Renaissance</text>
+      <text x="300" y="116" text-anchor="middle" font-size="9" fill="#A855F7">100+ participants</text>
+    </g>
+
+    <g>
+      <rect x="410" y="10" width="180" height="130" rx="14" fill="url(#cardBg)" stroke="#A855F7" stroke-opacity="0.5"/>
+      <rect x="410" y="10" width="180" height="130" rx="14" fill="none" stroke="#A855F7" stroke-width="3" opacity="0.25">
+        <animate attributeName="opacity" values="0.25;0;0.25" dur="2.4s" begin="0.6s" repeatCount="indefinite"/>
+      </rect>
+      <text x="500" y="48" text-anchor="middle" font-size="30">🇮🇳</text>
+      <text x="500" y="78" text-anchor="middle" font-size="18" font-weight="700" fill="#E9D5FF">SIH</text>
+      <text x="500" y="98" text-anchor="middle" font-size="10" fill="#C4B5FD">JECRC Team</text>
+      <text x="500" y="116" text-anchor="middle" font-size="9" fill="#A855F7">National Level</text>
+    </g>
+
+    <g>
+      <rect x="610" y="10" width="180" height="130" rx="14" fill="url(#cardBg)" stroke="#7C3AED" stroke-opacity="0.5"/>
+      <rect x="610" y="10" width="180" height="130" rx="14" fill="none" stroke="#7C3AED" stroke-width="3" opacity="0.25">
+        <animate attributeName="opacity" values="0.25;0;0.25" dur="2.4s" begin="0.9s" repeatCount="indefinite"/>
+      </rect>
+      <text x="700" y="48" text-anchor="middle" font-size="30">🧩</text>
+      <text x="700" y="78" text-anchor="middle" font-size="20" font-weight="700" fill="#E9D5FF">100+</text>
+      <text x="700" y="98" text-anchor="middle" font-size="10" fill="#C4B5FD">DSA Problems</text>
+      <text x="700" y="116" text-anchor="middle" font-size="9" fill="#A855F7">C++ &amp; Python</text>
+    </g>
+
+    <g>
+      <rect x="810" y="10" width="180" height="130" rx="14" fill="url(#cardBg)" stroke="#8B5CF6" stroke-opacity="0.5"/>
+      <rect x="810" y="10" width="180" height="130" rx="14" fill="none" stroke="#8B5CF6" stroke-width="3" opacity="0.25">
+        <animate attributeName="opacity" values="0.25;0;0.25" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>
+      </rect>
+      <text x="900" y="48" text-anchor="middle" font-size="30">🎓</text>
+      <text x="900" y="78" text-anchor="middle" font-size="15" font-weight="700" fill="#E9D5FF">OCI Cert</text>
+      <text x="900" y="98" text-anchor="middle" font-size="10" fill="#C4B5FD">Oracle Cloud</text>
+      <text x="900" y="116" text-anchor="middle" font-size="9" fill="#A855F7">Foundations Assoc.</text>
+    </g>
+
+  </g>
+</svg>

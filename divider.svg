@@ -1,0 +1,20 @@
+<svg width="1200" height="24" viewBox="0 0 1200 24" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <line x1="0" y1="12" x2="1200" y2="12" stroke="#7C3AED" stroke-opacity="0.15" stroke-width="1"/>
+
+  <line x1="0" y1="12" x2="1200" y2="12" stroke="url(#lineGrad)" stroke-width="2" stroke-dasharray="220 1400">
+    <animate attributeName="stroke-dashoffset" from="1620" to="-1620" dur="4.5s" repeatCount="indefinite"/>
+  </line>
+
+  <circle cx="0" cy="12" r="4" fill="#E9D5FF">
+    <animateMotion path="M0,0 L1200,0" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>

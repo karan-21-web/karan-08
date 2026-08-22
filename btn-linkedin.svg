@@ -1,0 +1,9 @@
+<svg width="170" height="46" viewBox="0 0 170 46" xmlns="http://www.w3.org/2000/svg">
+  <rect x="2" y="2" width="166" height="42" rx="10" fill="#0F0817" stroke="#8B5CF6" stroke-width="1.5">
+    <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2.3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="2" y="2" width="166" height="42" rx="10" fill="none" stroke="#8B5CF6" stroke-width="4" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0;0.3" dur="2.3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="85" y="28" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1.5" fill="#E9D5FF">LINKEDIN</text>
+</svg>

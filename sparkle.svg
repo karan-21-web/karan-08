@@ -1,0 +1,19 @@
+<svg width="300" height="40" viewBox="0 0 300 40" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#A855F7">
+    <path d="M40 8 L43 18 L53 20 L43 22 L40 32 L37 22 L27 20 L37 18 Z">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M150 4 L153 15 L164 18 L153 21 L150 32 L147 21 L136 18 L147 15 Z" fill="#E9D5FF">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M260 10 L262 18 L270 20 L262 22 L260 30 L258 22 L250 20 L258 18 Z" fill="#8B5CF6">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="95" cy="20" r="2" fill="#7C3AED">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="205" cy="20" r="2" fill="#A855F7">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
